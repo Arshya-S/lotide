@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "arshya_s/lotide",
   "version": "1.0.0",
-  "main": "head.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -15,7 +15,7 @@
   "keywords": [
     "lotide"
   ],
-  "author": "Arshya",
+  "author": "Arshya Soleimani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Arshya-S/lotide/issues"
@@ -25,5 +25,5 @@
     "chai": "^4.3.7",
     "mocha": "^9.2.2"
   },
-  "description": ""
+  "description": "Lodash clone with simple methods."
 }

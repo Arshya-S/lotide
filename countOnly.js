@@ -7,11 +7,8 @@ const assertEqual = function(actual, expected) {
 };
 
 
-
 const countOnly = function(allItems, itemsToCount) {
   let results = {}
-
-
 
   for (const item of allItems) {
     if (itemsToCount[item]) {
@@ -22,13 +19,10 @@ const countOnly = function(allItems, itemsToCount) {
       }
     }
   }
-  console.log(results);
   return results;
 }
 
-
-
-
+module.exports = countOnly;
 
 
 

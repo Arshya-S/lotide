@@ -16,6 +16,8 @@ const findKey = function(object,callback) {
 
 // Tests
 
+module.exports = findKey;
+
 
 
 
